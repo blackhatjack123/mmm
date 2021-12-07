@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt</title>
+  <style>
+      body{
+          background-color: #000;
+          margin-bottom: 10px;
+      }
+
+ 
+      #messages {
+          padding: 10px;
+          width: 90%;
+          height: 84%;
+          color: #090;
+          font-size: 15px;
+          position: absolute;
+          outline: 2px solid #090;
+          font-family: 'Courier New', Courier, monospace;
+      }
+      #textbox {
+          margin-right: 10px;
+          width: 289.5px;
+          height: 25px;
+          border: none;
+          outline: 3px solid #090;
+          background-color: #000;
+          color: #090; 
+      }
+
+      ::placeholder {
+          color: #090;
+      }
+      #text {
+          width: 100%;
+          height: 590px;
+          display: flex;
+          align-items: flex-end;
+          position: fixed;
+      }
+
+      #button {
+          background-color: #000;
+          border: none;
+          outline: 3px solid #090;
+          color: #090;
+          height: 25px;
+      }
+  </style>
+</head>
+<body>
+    <div class="main">
+    <ul id="messages"></ul>
+     </div>
+     <div id="text">
+    <form>
+        <input type="text" id="textbox" placeholder="Enter message here">
+        <button type="button" id="button" >Enter</button>
+    </form>
+   
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
